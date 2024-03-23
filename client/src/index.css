@@ -1,0 +1,146 @@
+/* //===================================== font family */
+/*=================== Import Roboto font */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+/* ===================Import Work Sans font */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap");
+/* ====================Import Lato font */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+/* =======================tailwincdd  */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*========================= Styles for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Scrollbar for Webkit browsers */
+*::-webkit-scrollbar {
+  display: none;
+  width: 2px; /* Set the width of the scrollbar */
+}
+
+/* Track */
+*::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Color for the track */
+}
+
+/* Handle */
+*::-webkit-scrollbar-thumb {
+  background: #fff3f3; /* Color for the scrollbar handle */
+}
+
+/* Handle on hover */
+*::-webkit-scrollbar-thumb:hover {
+  background: #ffefef; /* Color for the scrollbar handle on hover */
+}
+/* =========================Styles for the body */
+body {
+  background: #f2f5ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+p {
+  margin-bottom: 0 !important;
+}
+/* ============================react data table style  */
+.rdt_Table {
+}
+.rdt_TableRow {
+  min-height: 46.5px !important;
+}
+.rdt_TableCol {
+}
+.rdt_TableCol_Sortable {
+  min-width: 10% !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.rdt_TableCell {
+  min-width: 10% !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.rdt_TableHeader {
+}
+.rdt_TableFooter {
+}
+.rdt_TableHead {
+  border-bottom: 0 !important;
+}
+.rdt_TableHeadRow {
+  background-color: #e7e7e7 !important;
+  width: 100%;
+  min-height: 30px !important;
+  border: none !important;
+}
+.rdt_TableBody {
+}
+.rdt_ExpanderRow {
+}
+.sc-kEqXeH {
+  padding: 5px !important;
+}
+
+.gdkAMt {
+  color: #878790 !important;
+  font-family: Work Sans !important;
+  font-size: 13px !important;
+  font-style: normal;
+  font-weight: 400 !important;
+  line-height: normal;
+  letter-spacing: -0.26px;
+}
+.desc .__rdt_custom_sort_icon__ {
+  width: 6px !important;
+  height: 6px !important;
+}
+.asc .__rdt_custom_sort_icon__ {
+  width: 6px !important;
+  height: 6px !important;
+}
+.EVXRd span.__rdt_custom_sort_icon__ svg {
+  width: 6px !important;
+  height: 6px !important;
+}
+
+.EVXRd span.__rdt_custom_sort_icon__.asc i,
+.EVXRd span.__rdt_custom_sort_icon__.asc svg {
+  transform: rotate(0) !important;
+  height: 0 !important;
+}
+.rdt_Pagination {
+  min-height: 30px !important;
+}
+
+.bvimVq {
+  justify-content: space-between !important;
+}
+.kgGExh {
+  width: 100px !important;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+button:hover {
+  animation: hoverAnimation 3s alternate infinite ease-in-out;
+  transition: all;
+  animation-duration: 500ms;
+  animation-delay: 500ms;
+}
+
+@keyframes hoverAnimation {
+  0% {
+    box-shadow: 0 0 5px #c4edff;
+  }
+  50% {
+    box-shadow: 0 0 10px #c4edff;
+  }
+  100% {
+    box-shadow: 0 0 50px #c4edff;
+  }
+}
